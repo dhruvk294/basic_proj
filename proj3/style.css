@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+    margin:0;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.mum1{
+    background-image: url(images/mum1.jpg);
+    /* min-height: 100%; */
+    /* position: relative; */
+    min-height: 100%;
+}
+.mum2{
+    background-image: url(images/mum2.jpg);
+    min-height: 100%;
+}
+.mum3{
+    background-image: url(images/mum3.jpg);
+    min-height: 100%;
+}
+.mum4{
+    background-image: url(images/mum4.jpg);
+    min-height: 100%;
+}
+.mum5{
+    background-image: url(images/mum5.jpg);
+    min-height: 100%;
+}
+.mum1, .mum2, .mum3, .mum4, .mum5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textBg{
+    /* background-color: black; */
+    color: #050700;
+    padding: 20px
+}
+.info1{
+    padding: 4px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+.info1a{
+    background-color: #2c6178;
+    color: whitesmoke;
+}
+.info2{
+    padding: 4px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+.info2a{
+    background-color: #292d2f;
+    color: white
+}
+.info3{
+    padding: 4px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+.info3a{
+    background-color: #958d34;
+    color: white
+}
+.info4{
+    padding: 4px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+.info4a{
+    background-color: #c75d16;
+    color: white
+}
+.info5{
+    padding: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+.info5a{
+    background-color: #181d1c;
+    color: white
+}
